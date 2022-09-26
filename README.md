@@ -21,7 +21,6 @@ Here are some ideas to get you started:
 </div>
 
 
-
 <div>
 <a href="https://github.com/julianovincecampos">
 <img height="100em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JulianoVinceCampos&layout=compact&langs_count=7&theme=dracula"/>
