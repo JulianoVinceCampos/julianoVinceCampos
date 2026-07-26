@@ -1,8 +1,9 @@
 <h1 align="left">Juliano Vince de Campos</h1>
 
 <p align="left">
-  <strong>Staff Engineer / SRE — confiabilidade e segurança em sistemas financeiros regulados</strong><br/>
-  Acho a causa raiz onde ela está, mede o resultado, e transforma a medição em gate de CI.
+  <strong>Staff / Principal Architect · Engineering Manager · Cibersegurança · AI Engineering</strong><br/>
+  18+ anos em tecnologia, 9 deles em cibersegurança. Fintech e banking, em ambiente regulado.<br/>
+  Aqui ficam as <strong>provas executáveis</strong> do que o meu currículo afirma.
 </p>
 
 <p align="left">
@@ -16,41 +17,100 @@
 
 ---
 
-## O que eu faço
+## Por que este perfil existe
 
-14 anos em fintechs, bancos e plataformas digitais. Hoje atuo em **infraestrutura de registradora
-de ativos** sob supervisão do Banco Central: monolito Java EE sobre DB2, microsserviços em EKS,
-AWS multi-conta, e a esteira de qualidade de mais de 300 repositórios.
+Currículo afirma. Código prova.
 
-O trabalho que me interessa é o que aparece nos três lugares abaixo, nesta ordem:
-
-- **Causa raiz, não sintoma.** Ler o código de quem já foi embora, encontrar por que o incidente
-  volta, e provar a correção com número antes de propô-la.
-- **Segurança aplicada, não checklist.** DevSecOps que bloqueia merge, IAM que fecha caminho de
-  privilégio, e chave que rotaciona com procedimento testado — não com intenção documentada.
-- **IA com régua.** LLM perto de produção com baseline determinístico, avaliação medida,
-  aprovação humana e teto de custo. A parte difícil nunca é chamar o modelo.
+Cada repositório aqui foi construído para tornar **verificável** uma competência que a minha
+trajetória sustenta: leitura de causa raiz em sistema legado, segurança como propriedade da
+arquitetura, e IA aplicada com régua em vez de entusiasmo. Todos rodam com um comando, em máquina
+limpa, sem chave de API e sem conta em nuvem.
 
 ---
 
-## Projetos
+## Provas públicas
 
-| Projeto | O que é | Resultado |
+| Repositório | O que comprova | Resultado medido |
 |---|---|---|
-| **[postmortem-miner](https://github.com/JulianoVinceCampos/postmortem-miner)** | Transforma uma pilha de postmortems em árvore de decisão de triagem. Zero dependência de runtime, determinístico, explicável | **8 padrões explicam 90% de 20 incidentes em 15 ms**, com triagem de profundidade 4 |
+| **[postmortem-miner](https://github.com/JulianoVinceCampos/postmortem-miner)** | SRE de verdade: transformar histórico de incidente em decisão de triagem, o mesmo método que sustenta redução de MTTR | **8 padrões explicam 90% de 20 incidentes em 15 ms**, triagem de profundidade 4 · 93 testes · cobertura 99% |
 
-Cada repo carrega esteira de 10 camadas: sanitização, lint, testes em matriz, cobertura com ratchet
-que só sobe, Semgrep, CodeQL bloqueante, SCA, quality gate, SBOM e atestação de proveniência.
-Commits assinados, histórico linear.
+**Em construção**, cada um ligado a uma competência específica:
 
-**Em construção**, na ordem:
+| Repositório | Comprova | Conteúdo |
+|---|---|---|
+| `llm-eval-gate` | LLMOps e guardrails de IA generativa | Gate de CI que reprova o PR quando a qualidade da saída do LLM regride. Spec executável, variância entre execuções, orçamento de custo e latência, e comparação honesta contra baseline determinístico |
+| `ledger-forensics` | Criptografia aplicada e ambiente de Autoridade Certificadora | Detecção de fraude em escrituração com ground truth injetado, cadeia de hash tamper-evident, validação de XMLDSig e PKI de teste própria |
+| `iam-governance-lab` | IAM e IGA, o eixo de 9 anos | Ciclo JML, detecção de SoD, alcançabilidade de privilégio ("quem consegue o quê em N contas") e recertificação, tudo read-only com relatório |
+| `bulk-ingest-lab` | Performance engineering em stack legada | Ingestão monolítica virando streaming com chunking transacional, medida em JMH e com gate de regressão de memória |
 
-- `llm-eval-gate` — gate de CI que reprova o PR quando a qualidade de saída do LLM regride. Spec
-  executável, variância entre execuções, orçamento de custo e latência.
-- `ledger-forensics` — detecção de fraude em escrituração contábil com cadeia de hash
-  tamper-evident e validação de assinatura de documento fiscal.
-- `bulk-ingest-lab` — ingestão monolítica virando streaming com chunking transacional, medido em
-  JMH e com gate de regressão de memória.
+Todo repo nasce com a mesma esteira de 10 camadas: sanitização, lint, testes em matriz, cobertura com
+ratchet que só sobe, Semgrep, CodeQL bloqueante, SCA, quality gate, SBOM e atestação de proveniência.
+Commits assinados e histórico linear, sempre.
+
+---
+
+## Resultados em produção
+
+O que foi entregue em ambiente real, com número. O detalhe de cada contexto está no
+[LinkedIn](https://www.linkedin.com/in/julianovincecampos/).
+
+| Frente | Resultado |
+|---|---|
+| **Pagamentos** (PagoNxt / Santander) | taxa de sucesso transacional de **65% → 92%** em 8 meses · MTTR de **2h40 → 18 min** · falhas críticas −60% |
+| **Engenharia e DORA** (Luby) | cobertura de teste **0 → 82% em 3 meses** · lead time **14 dias → 2 dias** · cycle time **5 dias → 8h** · change failure rate **25% → 5%** |
+| **IAM e IGA** (Creditas) | **−45%** acessos acima do necessário · provisionamento de dias para horas (**−60%**) · **−28%** incidentes de autenticação e permissão |
+| **Segurança em banking** (Itaú Unibanco) | **−42%** privilégios excessivos · remoção de acesso de 5 dias para **<48h** · **−33%** esforço de auditoria BACEN e LGPD |
+| **Mobile em escala LATAM** (Mercado Pago) | falhas críticas **−55%** · MTTR **−60%** · incidentes em produção **−40%** em 4 países |
+| **FinOps e arquitetura** (Compass UOL) | custo de cloud **−20% a −35%** mantendo alta disponibilidade |
+
+---
+
+## Trajetória
+
+**Hoje** — Engineering Staff, AI Engineering Lead, SRE e Cibersegurança na **Luby**: fábrica de
+software com agentes de IA auditáveis, spec-driven development, guardrails por hook, MCP federando
+ferramentas, RAG e LLMOps. Threat modeling para LLM: prompt injection, data leakage, exfiltração.
+
+**Antes** — Creditas · Compass UOL · PicPay · PagoNxt (Santander) · Mercado Pago · Itaú Unibanco ·
+Foursys · Soluti (Autoridade Certificadora).
+
+**A origem importa.** Comecei em suporte N1/N2/N3 em telecom, passei por gestão de infraestrutura
+on-premise, desenvolvimento backend, mobile Android e iOS, e entrei em cibersegurança numa
+Autoridade Certificadora — onde confiança, criptografia e conformidade *são* o produto. Do hardware
+ao código à governança, camada por camada. É de onde vem a leitura de ponta a ponta.
+
+---
+
+## Competência técnica
+
+**Cibersegurança** — IAM e IGA (SailPoint, ciclo JML, RBAC, ABAC, SoD, PAM) · SSO com SAML, OAuth
+2.0 e OIDC · AppSec e SSDLC com SAST, DAST e SCA como gate de merge · Zero Trust · threat modeling ·
+TLS 1.3, mTLS, certificate pinning · ISO 27001, PCI-DSS, LGPD, NIST CSF, BACEN.
+
+**IA aplicada** — Agentes com orquestração auditável · RAG · MCP · LLMOps e MLOps · prompt
+engineering seguro e segurança de LLM · AWS Bedrock, OpenAI, Anthropic, LangChain · Python.
+
+**Plataforma e confiabilidade** — SLI, SLO, incident response e postmortem · Datadog (APM, logs,
+métricas) · AWS e Azure · Kubernetes, Docker · Terraform · GitHub Actions e SonarQube como quality
+gate · deploy canary e blue-green com rollback.
+
+**Arquitetura** — Clean Architecture, Hexagonal, DDD, SOLID · microsserviços e event-driven · Java e
+Java EE, Kotlin, Spring, Python · mobile nativo Android e iOS.
+
+**Engenharia de gestão** — times de 10 a 15 pessoas · OKR e métricas DORA reportadas a C-Level ·
+1:1, PDI, trilha de carreira, recrutamento e code review.
+
+---
+
+## Formação e certificações
+
+**Cambridge AI Leadership Programme** (University of Cambridge, 2026) · **Pós em Cibersegurança e
+Governança de Dados** (PUC Minas) · **MBA em IA, Data Science e Big Data** (PUC-RS) ·
+**Especialização em Gestão de Engenharia** (PUC Minas) · **Bacharelado em Sistemas de Informação**
+(PUC Goiás).
+
+AWS Certified AI Practitioner · Oracle Certified Java Programmer · ITIL v3 Foundation ·
+EXIN ISO/IEC 27002 · COBIT.
 
 ---
 
@@ -58,8 +118,9 @@ Commits assinados, histórico linear.
 
 Quatro coisas aparecem em tudo que eu construo, e são o que eu levo para um time:
 
-**Baseline determinístico antes de qualquer IA.** Primeiro a solução explicável, depois a medição
-de se o modelo agrega. Nessa ordem, sempre.
+**Baseline determinístico antes de qualquer IA.** Primeiro a solução explicável, depois a medição de
+se o modelo agrega. Nessa ordem, sempre. Num incidente às 3h você precisa de uma conclusão com a
+qual possa discutir, não de um score em que precise acreditar.
 
 **Ground truth que permite medir.** Se não dá para calcular precisão e recall, é opinião. Meus
 geradores de dado sintético plantam o problema de propósito, justamente para que a detecção seja
@@ -68,25 +129,8 @@ verificável.
 **O número do README é defendido por CI.** Benchmark, cobertura e qualidade de LLM entram como gate
 de regressão. Número que ninguém defende envelhece em silêncio.
 
-**Reprodutibilidade em máquina limpa.** Um comando, sem chave de API, sem conta em nuvem. "Funciona
-aqui" não é resultado.
-
----
-
-## Trajetória técnica
-
-**Plataforma e confiabilidade** — AWS multi-conta com Terraform, Terragrunt e Atlantis · EKS ·
-Datadog com SLI/SLO e resposta a incidente · resposta a P1 em produção financeira · DB2 e WildFly em
-carga real.
-
-**Segurança** — Secure SDLC e DevSecOps em escala de organização · SAST e SCA como gate de merge ·
-IAM Identity Center, KMS e gestão de certificado · Resolução BCB 304, ISO 20000, LGPD.
-
-**Backend** — Java e Java EE · Spring · Python · arquitetura orientada a evento · Clean Architecture,
-DDD e Hexagonal.
-
-**Mobile** — Kotlin, Android, Swift, iOS e Flutter. Origem da carreira e o acervo mais antigo aqui no
-perfil.
+**Segurança é propriedade da arquitetura.** Não etapa, não checklist, não gate no fim. Se ela só
+aparece antes do deploy, já é tarde.
 
 ---
 
