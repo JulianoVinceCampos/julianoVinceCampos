@@ -1,84 +1,98 @@
-<!-- =========================
-     Juliano Vince de Campos
-     Profile README
-     ========================= -->
-
 <h1 align="left">Juliano Vince de Campos</h1>
 
 <p align="left">
-  <strong>Staff Engineer Architect | Cybersecurity | Mobile | DevSecOps | AI & Multicloud</strong><br/>
-  Arquitetura, segurança e engenharia orientadas a impacto real de negócio: resiliência, escala, performance e governança.
+  <strong>Staff Engineer / SRE — confiabilidade e segurança em sistemas financeiros regulados</strong><br/>
+  Acho a causa raiz onde ela está, mede o resultado, e transforma a medição em gate de CI.
 </p>
 
 <p align="left">
   <a href="https://julianovincedecampos.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Bio-julianovincedecampos.com-black?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Bio-julianovincedecampos.com-black?style=for-the-badge" alt="Bio" />
   </a>
   <a href="https://www.linkedin.com/in/julianovincecampos/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-julianovincecampos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:julianovincedecampos@hotmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-julianovincedecampos%40hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-julianovincecampos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
 ---
 
-## Visão Geral
+## O que eu faço
 
-Atuo há **14+ anos** em ecossistemas de alta complexidade (fintechs, bancos e plataformas digitais), liderando iniciativas críticas com foco em:
+14 anos em fintechs, bancos e plataformas digitais. Hoje atuo em **infraestrutura de registradora
+de ativos** sob supervisão do Banco Central: monolito Java EE sobre DB2, microsserviços em EKS,
+AWS multi-conta, e a esteira de qualidade de mais de 300 repositórios.
 
-- **Arquitetura Mobile & Backend** (Clean Architecture, DDD, Hexagonal, Event-Driven)
-- **Segurança aplicada (AppSec/CloudSec/SecOps)** com **Secure SDLC** e **DevSecOps**
-- **Observabilidade & Confiabilidade** (SLIs/SLOs, incident response, redução de MTTR)
-- **Multicloud** (AWS/GCP/Azure) com governança, custo, performance e segurança
+O trabalho que me interessa é o que aparece nos três lugares abaixo, nesta ordem:
 
-GitHub antigo: https://github.com/JulianoVince
+- **Causa raiz, não sintoma.** Ler o código de quem já foi embora, encontrar por que o incidente
+  volta, e provar a correção com número antes de propô-la.
+- **Segurança aplicada, não checklist.** DevSecOps que bloqueia merge, IAM que fecha caminho de
+  privilégio, e chave que rotaciona com procedimento testado — não com intenção documentada.
+- **IA com régua.** LLM perto de produção com baseline determinístico, avaliação medida,
+  aprovação humana e teto de custo. A parte difícil nunca é chamar o modelo.
 
 ---
 
-## Stack Principal (organizado por domínio)
+## Projetos
 
-### Mobile
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="44" height="44" alt="Android" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="44" height="44" alt="Kotlin" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="44" height="44" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="44" height="44" alt="Swift" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="44" height="44" alt="Flutter" />
-</p>
+| Projeto | O que é | Resultado |
+|---|---|---|
+| **[postmortem-miner](https://github.com/JulianoVinceCampos/postmortem-miner)** | Transforma uma pilha de postmortems em árvore de decisão de triagem. Zero dependência de runtime, determinístico, explicável | **8 padrões explicam 90% de 20 incidentes em 15 ms**, com triagem de profundidade 4 |
 
-### Backend & APIs
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="44" height="44" alt="Spring" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="44" height="44" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="44" height="44" alt="PHP" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="44" height="44" alt="Python" />
-</p>
+Cada repo carrega esteira de 10 camadas: sanitização, lint, testes em matriz, cobertura com ratchet
+que só sobe, Semgrep, CodeQL bloqueante, SCA, quality gate, SBOM e atestação de proveniência.
+Commits assinados, histórico linear.
 
-### Cloud, DevSecOps & Delivery
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="44" height="44" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="44" height="44" alt="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="44" height="44" alt="GitHub" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" width="44" height="44" alt="Bitbucket" />
-</p>
+**Em construção**, na ordem:
 
-### Tooling (Mobile & Observabilidade)
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="44" height="44" alt="Android Studio" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="44" height="44" alt="Xcode" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="44" height="44" alt="Firebase" />
-</p>
+- `llm-eval-gate` — gate de CI que reprova o PR quando a qualidade de saída do LLM regride. Spec
+  executável, variância entre execuções, orçamento de custo e latência.
+- `ledger-forensics` — detecção de fraude em escrituração contábil com cadeia de hash
+  tamper-evident e validação de assinatura de documento fiscal.
+- `bulk-ingest-lab` — ingestão monolítica virando streaming com chunking transacional, medido em
+  JMH e com gate de regressão de memória.
+
+---
+
+## Como eu trabalho
+
+Quatro coisas aparecem em tudo que eu construo, e são o que eu levo para um time:
+
+**Baseline determinístico antes de qualquer IA.** Primeiro a solução explicável, depois a medição
+de se o modelo agrega. Nessa ordem, sempre.
+
+**Ground truth que permite medir.** Se não dá para calcular precisão e recall, é opinião. Meus
+geradores de dado sintético plantam o problema de propósito, justamente para que a detecção seja
+verificável.
+
+**O número do README é defendido por CI.** Benchmark, cobertura e qualidade de LLM entram como gate
+de regressão. Número que ninguém defende envelhece em silêncio.
+
+**Reprodutibilidade em máquina limpa.** Um comando, sem chave de API, sem conta em nuvem. "Funciona
+aqui" não é resultado.
+
+---
+
+## Trajetória técnica
+
+**Plataforma e confiabilidade** — AWS multi-conta com Terraform, Terragrunt e Atlantis · EKS ·
+Datadog com SLI/SLO e resposta a incidente · resposta a P1 em produção financeira · DB2 e WildFly em
+carga real.
+
+**Segurança** — Secure SDLC e DevSecOps em escala de organização · SAST e SCA como gate de merge ·
+IAM Identity Center, KMS e gestão de certificado · Resolução BCB 304, ISO 20000, LGPD.
+
+**Backend** — Java e Java EE · Spring · Python · arquitetura orientada a evento · Clean Architecture,
+DDD e Hexagonal.
+
+**Mobile** — Kotlin, Android, Swift, iOS e Flutter. Origem da carreira e o acervo mais antigo aqui no
+perfil.
 
 ---
 
 ## Contato
 
-📍 Brasil (SP/GO)  
-📱 WhatsApp: **+55 (62) 98137-2078**  
-🌐 Bio / Site: https://julianovincedecampos.com/  
-🔗 LinkedIn: https://www.linkedin.com/in/julianovincecampos/  
-📧 Email: julianovincedecampos@hotmail.com  
+Brasil (SP/GO) · [julianovincedecampos.com](https://julianovincedecampos.com/) ·
+[LinkedIn](https://www.linkedin.com/in/julianovincecampos/)
 
----
+<sub>Perfil anterior: <a href="https://github.com/JulianoVince">@JulianoVince</a></sub>
