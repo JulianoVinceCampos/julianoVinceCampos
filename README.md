@@ -1,9 +1,27 @@
+<!--
+  Juliano Vince de Campos - GitHub Profile README
+  Staff Principal Software Architect, Engineering Manager, Cybersecurity Engineer,
+  AI Engineering Lead, SRE, DevSecOps, AppSec, IAM, IGA, SailPoint, Zero Trust,
+  OAuth2, OIDC, SAML, PAM, RBAC, ABAC, SoD, threat modeling, SSDLC, SAST, DAST, SCA,
+  Semgrep, SonarQube, CodeQL, GenAI, LLM, RAG, MCP, AI Agents, LLMOps, MLOps,
+  prompt injection, guardrails, AWS Bedrock, OpenAI, Anthropic, LangChain, n8n,
+  AWS, Azure, Kubernetes, Docker, Terraform, Datadog, observability, SLI, SLO,
+  incident response, postmortem, MTTR, DORA metrics, Java, Kotlin, Spring, Python,
+  Android, iOS, Clean Architecture, Hexagonal, DDD, microservices, event-driven,
+  fintech, banking, payments, PCI-DSS, ISO 27001, LGPD, NIST CSF, BACEN, COBIT, ITIL,
+  engineering management, tech lead, technical leadership, Brazil, Sao Paulo, Goiania.
+-->
+
 <h1 align="left">Juliano Vince de Campos</h1>
 
 <p align="left">
   <strong>Staff / Principal Architect · Engineering Manager · Cibersegurança · AI Engineering</strong><br/>
   18+ anos em tecnologia, 9 deles em cibersegurança. Fintech e banking, em ambiente regulado.<br/>
   Aqui ficam as <strong>provas executáveis</strong> do que o meu currículo afirma.
+</p>
+
+<p align="left">
+  <sub>✡︎ &nbsp;<strong>אֱמֶת</strong> — <em>emet</em>, verdade. O que um sistema precisa dizer quando ninguém está olhando.</sub>
 </p>
 
 <p align="left">
@@ -39,8 +57,10 @@ limpa, sem chave de API e sem conta em nuvem.
 | Repositório | Comprova | Conteúdo |
 |---|---|---|
 | `llm-eval-gate` | LLMOps e guardrails de IA generativa | Gate de CI que reprova o PR quando a qualidade da saída do LLM regride. Spec executável, variância entre execuções, orçamento de custo e latência, e comparação honesta contra baseline determinístico |
-| `ledger-forensics` | Criptografia aplicada e ambiente de Autoridade Certificadora | Detecção de fraude em escrituração com ground truth injetado, cadeia de hash tamper-evident, validação de XMLDSig e PKI de teste própria |
 | `iam-governance-lab` | IAM e IGA, o eixo de 9 anos | Ciclo JML, detecção de SoD, alcançabilidade de privilégio ("quem consegue o quê em N contas") e recertificação, tudo read-only com relatório |
+| `ledger-forensics` | Criptografia aplicada e ambiente de Autoridade Certificadora | Detecção de fraude em escrituração com ground truth injetado, cadeia de hash tamper-evident, validação de XMLDSig e PKI de teste própria |
+| `dora-lens` | Gestão de engenharia com dado, não com percepção | Calcula as quatro métricas DORA direto da API do GitHub, com cada definição e cada caso de borda documentados. Porque "lead time caiu" sem definição escrita é anedota |
+| `shomer-oncall` | Calendário hebraico aplicado a escala de plantão | Rotação de on-call que respeita Shabat e Yamim Tovim: fronteiras calculadas por zmanim astronômicos, não por tabela chumbada, com repartição justa do plantão entre quem observa e quem não observa |
 | `bulk-ingest-lab` | Performance engineering em stack legada | Ingestão monolítica virando streaming com chunking transacional, medida em JMH e com gate de regressão de memória |
 
 Todo repo nasce com a mesma esteira de 10 camadas: sanitização, lint, testes em matriz, cobertura com
@@ -134,9 +154,29 @@ aparece antes do deploy, já é tarde.
 
 ---
 
+## Áreas de atuação
+
+Cibersegurança · AppSec · IAM e IGA · Zero Trust · DevSecOps · SSDLC · threat modeling ·
+SAST, DAST e SCA · Semgrep · SonarQube · CodeQL · SailPoint · OAuth 2.0 · OIDC · SAML · PAM ·
+RBAC e ABAC · segregação de funções · PCI-DSS · ISO 27001 · LGPD · NIST CSF · BACEN · COBIT · ITIL
+
+IA generativa · LLM · RAG · MCP · agentes de IA · LLMOps e MLOps · guardrails · prompt injection ·
+AWS Bedrock · OpenAI · Anthropic · LangChain · n8n · spec-driven development
+
+SRE e confiabilidade · SLI e SLO · incident response · postmortem · MTTR · métricas DORA ·
+observabilidade · Datadog · AWS · Azure · Kubernetes · Docker · Terraform · GitHub Actions
+
+Arquitetura de software · Clean Architecture · Hexagonal · DDD · SOLID · microsserviços ·
+event-driven · Java · Java EE · Kotlin · Spring · Python · Android · iOS
+
+Engineering management · liderança técnica · tech lead · staff e principal engineer ·
+gestão de time · OKR · fintech · banking · pagamentos · payments
+
+---
+
 ## Contato
 
 Brasil (SP/GO) · [julianovincedecampos.com](https://julianovincedecampos.com/) ·
 [LinkedIn](https://www.linkedin.com/in/julianovincecampos/)
 
-<sub>Perfil anterior: <a href="https://github.com/JulianoVince">@JulianoVince</a></sub>
+<sub>✡︎ &nbsp;בְּעֶזְרַת הַשֵּׁם &nbsp;·&nbsp; Perfil anterior: <a href="https://github.com/JulianoVince">@JulianoVince</a></sub>
