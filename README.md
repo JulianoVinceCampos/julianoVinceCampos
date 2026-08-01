@@ -52,13 +52,13 @@ limpa, sem chave de API e sem conta em nuvem.
 |---|---|---|
 | **[postmortem-miner](https://github.com/JulianoVinceCampos/postmortem-miner)** | SRE de verdade: transformar histórico de incidente em decisão de triagem, o mesmo método que sustenta redução de MTTR | **8 padrões explicam 90% de 20 incidentes em 15 ms**, triagem de profundidade 4 · 93 testes · cobertura 99% |
 | **[shomer-oncall](https://github.com/JulianoVinceCampos/shomer-oncall)** | Calendário hebraico aplicado a escala de plantão: fronteiras por *zmanim* astronômicos (não tabela chumbada) e repartição justa entre quem observa e quem não | **Observantes carregam a mesma weighted load sem pegar nenhum Shabat** (Jain 0.9998, spread 1.0, 0 violations em 92 dias) · calendário hebraico e *zmanim* do zero, zero dependências de runtime · 77 testes · cobertura 96% |
+| **[iam-governance-lab-web](https://github.com/JulianoVinceCampos/iam-governance-lab-web)** | IAM e IGA, o eixo de 9 anos: SoD, privilege reachability cross-account, ciclo JML e recertification, tudo read-only com procedência | **37 violações de SoD em 4 severidades, 12 caminhos de escalonamento cross-account, 9 targets sensíveis** · RBAC e ABAC lado a lado com procedência · dashboard interativo e [demo no ar](https://iam-governance-lab-web.onrender.com) · 64 testes em Python 3.11 a 3.13 · CI com Semgrep, CodeQL e pip-audit |
 
 **Em construção**, cada um ligado a uma competência específica:
 
 | Repositório | Comprova | Conteúdo |
 |---|---|---|
 | `llm-eval-gate` | LLMOps e guardrails de IA generativa | Gate de CI que reprova o PR quando a qualidade da saída do LLM regride. Spec executável, variância entre execuções, orçamento de custo e latência, e comparação honesta contra baseline determinístico |
-| `iam-governance-lab` | IAM e IGA, o eixo de 9 anos | Ciclo JML, detecção de SoD, alcançabilidade de privilégio ("quem consegue o quê em N contas") e recertificação, tudo read-only com relatório |
 | `ledger-forensics` | Criptografia aplicada e ambiente de Autoridade Certificadora | Detecção de fraude em escrituração com ground truth injetado, cadeia de hash tamper-evident, validação de XMLDSig e PKI de teste própria |
 | `dora-lens` | Gestão de engenharia com dado, não com percepção | Calcula as quatro métricas DORA direto da API do GitHub, com cada definição e cada caso de borda documentados. Porque "lead time caiu" sem definição escrita é anedota |
 | `bulk-ingest-lab` | Performance engineering em stack legada | Ingestão monolítica virando streaming com chunking transacional, medida em JMH e com gate de regressão de memória |
