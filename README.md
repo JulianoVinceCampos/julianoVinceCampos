@@ -9,19 +9,19 @@ Arquitetura, segurança e confiabilidade em fintech e banking sob regulação. 1
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="30%" valign="top">
 
 **Base**<br/>
-Brasil, São Paulo e Goiás
+Brasil · Brasília · São Paulo · Goiás
 
 </td>
-<td width="33%" valign="top">
+<td width="44%" valign="top">
 
-**Setor**<br/>
-Fintech, banking e pagamentos
+**Setores**<br/>
+Banking · fintech · pagamentos e POS · marketplace · Autoridade Certificadora e certificação digital · varejo · telecom · governança de TI e ITSM · tributação fiscal
 
 </td>
-<td width="33%" valign="top">
+<td width="26%" valign="top">
 
 **Todo repositório**<br/>
 Commit assinado, histórico linear
@@ -35,58 +35,37 @@ Commit assinado, histórico linear
 
 ---
 
-## O que você encontra aqui
-
-Sistemas pequenos e completos, cada um isolando um problema difícil de um domínio que eu opero no dia a dia: leitura de causa raiz em legado, governança de acesso, e IA aplicada com régua.
-
-Cada número que aparece num README é calculado pelo próprio projeto e defendido por CI, então continua verdadeiro no commit seguinte.
-
----
-
 ## Projetos em destaque
 
 ### [postmortem-miner](https://github.com/JulianoVinceCampos/postmortem-miner)
 
 Histórico de incidente virando decisão de triagem. Minera padrão recorrente em postmortem e devolve a árvore de decisão que um plantonista usa às 3h da manhã. Baseline determinístico primeiro, modelo depois, e só se a medição mostrar ganho.
 
-<table>
-<tr>
-<td width="25%" align="center"><strong>8 padrões</strong><br/><sub>explicam 90% de 20 incidentes</sub></td>
-<td width="25%" align="center"><strong>15 ms</strong><br/><sub>latência de triagem</sub></td>
-<td width="25%" align="center"><strong>93 testes</strong><br/><sub>suíte automatizada</sub></td>
-<td width="25%" align="center"><strong>99%</strong><br/><sub>cobertura</sub></td>
-</tr>
-</table>
+Na base de referência, 8 padrões explicam 90% de 20 incidentes, com triagem em 15 ms e profundidade de árvore 4.
+
+<a href="https://github.com/JulianoVinceCampos/postmortem-miner/actions"><img src="https://img.shields.io/github/actions/workflow/status/JulianoVinceCampos/postmortem-miner/pr-ci.yml?style=flat-square&labelColor=0D1117&label=CI" alt="Status do pipeline de integracao continua do postmortem-miner" /></a>
+<img src="https://img.shields.io/github/last-commit/JulianoVinceCampos/postmortem-miner?style=flat-square&labelColor=0D1117&label=%C3%BAltimo%20commit" alt="Data do ultimo commit no postmortem-miner" />
+<img src="https://img.shields.io/github/commit-activity/y/JulianoVinceCampos/postmortem-miner?style=flat-square&labelColor=0D1117&label=commits%2Fano" alt="Commits por ano no repositorio postmortem-miner" />
 
 ### [shomer-oncall](https://github.com/JulianoVinceCampos/shomer-oncall)
 
 Escala de plantão que respeita calendário hebraico sem penalizar ninguém. As fronteiras de turno saem de *zmanim* astronômicos calculados na hora, não de tabela chumbada. O allocator reparte carga ponderada entre quem observa e quem não, e prova a justiça com métrica.
 
-<table>
-<tr>
-<td width="25%" align="center"><strong>0,9998</strong><br/><sub>índice de justiça de Jain</sub></td>
-<td width="25%" align="center"><strong>0 violações</strong><br/><sub>em escala de 92 dias</sub></td>
-<td width="25%" align="center"><strong>77 testes</strong><br/><sub>suíte automatizada</sub></td>
-<td width="25%" align="center"><strong>96%</strong><br/><sub>cobertura</sub></td>
-</tr>
-</table>
+Numa escala de 92 dias, índice de justiça de Jain 0,9998, spread de carga 1,0 e nenhuma violação de restrição. Calendário hebraico e *zmanim* implementados do zero, com zero dependência de runtime.
 
-Calendário hebraico e *zmanim* implementados do zero, com zero dependência de runtime.
+<a href="https://github.com/JulianoVinceCampos/shomer-oncall/actions"><img src="https://img.shields.io/github/actions/workflow/status/JulianoVinceCampos/shomer-oncall/ci.yml?style=flat-square&labelColor=0D1117&label=CI" alt="Status do pipeline de integracao continua do shomer-oncall" /></a>
+<img src="https://img.shields.io/github/last-commit/JulianoVinceCampos/shomer-oncall?style=flat-square&labelColor=0D1117&label=%C3%BAltimo%20commit" alt="Data do ultimo commit no shomer-oncall" />
+<img src="https://img.shields.io/github/commit-activity/y/JulianoVinceCampos/shomer-oncall?style=flat-square&labelColor=0D1117&label=commits%2Fano" alt="Commits por ano no repositorio shomer-oncall" />
 
 ### [iam-governance-lab-web](https://github.com/JulianoVinceCampos/iam-governance-lab-web)
 
 Governança de acesso que nomeia a procedência de cada achado. SoD, privilege reachability cross-account, ciclo JML e recertification sobre dataset sintético multi-conta. Cada violação diz quais dois entitlements colidem e qual cadeia de grupo os trouxe. Cada escalonamento imprime o caminho inteiro, aresta por aresta.
 
-<table>
-<tr>
-<td width="25%" align="center"><strong>37 violações</strong><br/><sub>de SoD, em 4 severidades</sub></td>
-<td width="25%" align="center"><strong>12 caminhos</strong><br/><sub>de escalonamento cross-account</sub></td>
-<td width="25%" align="center"><strong>64 testes</strong><br/><sub>em Python 3.11 a 3.14</sub></td>
-<td width="25%" align="center"><strong>Demo</strong><br/><sub><a href="https://iam-governance-lab-web.onrender.com">no ar</a></sub></td>
-</tr>
-</table>
+No dataset sintético, 37 violações de SoD em 4 severidades, 12 caminhos de escalonamento cross-account e 9 alvos sensíveis alcançáveis. Dashboard interativo, editor de cenário e restore em um clique, com **[demo no ar](https://iam-governance-lab-web.onrender.com)**. CI com Semgrep, CodeQL e pip-audit.
 
-Dashboard interativo, editor de cenário e restore em um clique. CI com Semgrep, CodeQL e pip-audit.
+<a href="https://github.com/JulianoVinceCampos/iam-governance-lab-web/actions"><img src="https://img.shields.io/github/actions/workflow/status/JulianoVinceCampos/iam-governance-lab-web/ci.yml?style=flat-square&labelColor=0D1117&label=CI" alt="Status do pipeline de integracao continua do iam-governance-lab-web" /></a>
+<img src="https://img.shields.io/github/last-commit/JulianoVinceCampos/iam-governance-lab-web?style=flat-square&labelColor=0D1117&label=%C3%BAltimo%20commit" alt="Data do ultimo commit no iam-governance-lab-web" />
+<img src="https://img.shields.io/github/commit-activity/y/JulianoVinceCampos/iam-governance-lab-web?style=flat-square&labelColor=0D1117&label=commits%2Fano" alt="Commits por ano no repositorio iam-governance-lab-web" />
 
 <details>
 <summary><strong>Em construção</strong>, cada um ligado a uma competência específica</summary>
