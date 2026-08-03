@@ -21,7 +21,7 @@
 </p>
 
 <p align="left">
-  <sub>✡︎ &nbsp;<strong>אֱמֶת</strong> — <em>emet</em>, verdade. O que um sistema precisa dizer quando ninguém está olhando.</sub>
+  <sub>✡︎ &nbsp;<strong>אֱמֶת</strong>: <em>emet</em>, verdade. O que um sistema precisa dizer quando ninguém está olhando.</sub>
 </p>
 
 <p align="left">
@@ -87,37 +87,37 @@ O que foi entregue em ambiente real, com número. O detalhe de cada contexto est
 
 ## Trajetória
 
-**Hoje** — Engineering Staff, AI Engineering Lead, SRE e Cibersegurança na **Luby**: fábrica de
+**Hoje**, Engineering Staff, AI Engineering Lead, SRE e Cibersegurança na **Luby**: fábrica de
 software com agentes de IA auditáveis, spec-driven development, guardrails por hook, MCP federando
 ferramentas, RAG e LLMOps. Threat modeling para LLM: prompt injection, data leakage, exfiltração.
 
-**Antes** — Creditas · Compass UOL · PicPay · PagoNxt (Santander) · Mercado Pago · Itaú Unibanco ·
+**Antes**: Creditas · Compass UOL · PicPay · PagoNxt (Santander) · Mercado Pago · Itaú Unibanco ·
 Foursys · Soluti (Autoridade Certificadora).
 
 **A origem importa.** Comecei em suporte N1/N2/N3 em telecom, passei por gestão de infraestrutura
 on-premise, desenvolvimento backend, mobile Android e iOS, e entrei em cibersegurança numa
-Autoridade Certificadora — onde confiança, criptografia e conformidade *são* o produto. Do hardware
+Autoridade Certificadora, onde confiança, criptografia e conformidade *são* o produto. Do hardware
 ao código à governança, camada por camada. É de onde vem a leitura de ponta a ponta.
 
 ---
 
 ## Competência técnica
 
-**Cibersegurança** — IAM e IGA (SailPoint, ciclo JML, RBAC, ABAC, SoD, PAM) · SSO com SAML, OAuth
+**Cibersegurança**: IAM e IGA (SailPoint, ciclo JML, RBAC, ABAC, SoD, PAM) · SSO com SAML, OAuth
 2.0 e OIDC · AppSec e SSDLC com SAST, DAST e SCA como gate de merge · Zero Trust · threat modeling ·
 TLS 1.3, mTLS, certificate pinning · ISO 27001, PCI-DSS, LGPD, NIST CSF, BACEN.
 
-**IA aplicada** — Agentes com orquestração auditável · RAG · MCP · LLMOps e MLOps · prompt
+**IA aplicada**: Agentes com orquestração auditável · RAG · MCP · LLMOps e MLOps · prompt
 engineering seguro e segurança de LLM · AWS Bedrock, OpenAI, Anthropic, LangChain · Python.
 
-**Plataforma e confiabilidade** — SLI, SLO, incident response e postmortem · Datadog (APM, logs,
+**Plataforma e confiabilidade**: SLI, SLO, incident response e postmortem · Datadog (APM, logs,
 métricas) · AWS e Azure · Kubernetes, Docker · Terraform · GitHub Actions e SonarQube como quality
 gate · deploy canary e blue-green com rollback.
 
-**Arquitetura** — Clean Architecture, Hexagonal, DDD, SOLID · microsserviços e event-driven · Java e
+**Arquitetura**: Clean Architecture, Hexagonal, DDD, SOLID · microsserviços e event-driven · Java e
 Java EE, Kotlin, Spring, Python · mobile nativo Android e iOS.
 
-**Engenharia de gestão** — times de 10 a 15 pessoas · OKR e métricas DORA reportadas a C-Level ·
+**Engenharia de gestão**: times de 10 a 15 pessoas · OKR e métricas DORA reportadas a C-Level ·
 1:1, PDI, trilha de carreira, recrutamento e code review.
 
 ---
