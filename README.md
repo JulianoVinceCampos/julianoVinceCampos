@@ -9,22 +9,16 @@ Arquitetura, segurança e confiabilidade em fintech e banking sob regulação. 1
 
 <table>
 <tr>
-<td width="34%" valign="top">
+<td width="50%" valign="top">
 
 **Base**<br/>
 Brasil, São Paulo e Goiás
 
 </td>
-<td width="33%" valign="top">
+<td width="100%" valign="top">
 
 **Setor**<br/>
-Fintech, banking e pagamentos
-
-</td>
-<td width="33%" valign="top">
-
-**Todo repositório**<br/>
-Commit assinado, histórico linear
+Fintech, CiberSegurança,  Inteligência Artificial (IA), banking e pagamentos
 
 </td>
 </tr>
@@ -35,25 +29,7 @@ Commit assinado, histórico linear
 
 ---
 
-## Atividade
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JulianoVinceCampos/JulianoVinceCampos/main/assets/contribuicoes-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JulianoVinceCampos/JulianoVinceCampos/main/assets/contribuicoes-light.svg" />
-  <img src="https://raw.githubusercontent.com/JulianoVinceCampos/JulianoVinceCampos/main/assets/contribuicoes-dark.svg" alt="Mapa de contribuicoes diarias no GitHub com 164 dias consecutivos de atividade desde 21 de fevereiro de 2026" width="100%" />
-</picture>
-
 <a href="https://github.com/JulianoVinceCampos?tab=repositories"><img src="https://streak-stats.demolab.com?user=JulianoVinceCampos&theme=dark&hide_border=true&locale=pt_BR&date_format=j%20M%5B%20Y%5D&background=0D1117&stroke=21262D&ring=2F81F7&fire=2F81F7&currStreakLabel=2F81F7&sideLabels=8B949E&dates=8B949E&card_width=870" alt="Total de 1573 contribuicoes no GitHub desde 2022 com sequencia atual de 164 dias consecutivos" width="100%" /></a>
-
-**164 dias consecutivos** com contribuição, desde 21/02/2026. Nos últimos 90 dias, 90 tiveram commit. São 1.573 contribuições desde setembro de 2022, das quais 439 em 2026. O mapa acima é gerado a partir da API do GitHub e versionado neste repositório, então não depende de serviço de terceiro para aparecer.
-
----
-
-## O que você encontra aqui
-
-Sistemas pequenos e completos, cada um isolando um problema difícil de um domínio que eu opero no dia a dia: leitura de causa raiz em legado, governança de acesso, e IA aplicada com régua.
-
-Cada número que aparece num README é calculado pelo próprio projeto e defendido por CI, então continua verdadeiro no commit seguinte.
 
 ---
 
