@@ -67,6 +67,16 @@ No dataset sintético, 37 violações de SoD em 4 severidades, 12 caminhos de es
 <img src="https://img.shields.io/github/last-commit/JulianoVinceCampos/iam-governance-lab-web?style=flat-square&labelColor=0D1117&label=%C3%BAltimo%20commit" alt="Data do ultimo commit no iam-governance-lab-web" />
 <img src="https://img.shields.io/github/commit-activity/y/JulianoVinceCampos/iam-governance-lab-web?style=flat-square&labelColor=0D1117&label=commits%2Fano" alt="Commits por ano no repositorio iam-governance-lab-web" />
 
+### [observability-governance-lab](https://github.com/JulianoVinceCampos/observability-governance-lab)
+
+Framework de governança virando controle executável. ITIL 4 e COBIT 2019 normalmente rendem documento de aderência. Aqui cada exigência é uma função pura que lê inventário de observabilidade e devolve verdict, com a evidência crua que sustentou a conclusão anexada.
+
+30 controles, 16 deles obrigatórios, cobrindo 7 práticas ITIL e 9 objetivos COBIT. Um único MUST reprovado trava a prática no nível 1 e o controle responsável é nomeado, em vez de diluído numa média que esconde o problema. SKIP nunca conta como PASS, e todo waiver exige dono e validade. Dashboard com editor de cenário e **[demo no ar](https://observability-governance-lab-v8yr.onrender.com)**, sem dependência de runtime nem build step. Release com SBOM e atestação de proveniência.
+
+<a href="https://github.com/JulianoVinceCampos/observability-governance-lab/actions"><img src="https://img.shields.io/github/actions/workflow/status/JulianoVinceCampos/observability-governance-lab/pr-ci.yml?style=flat-square&labelColor=0D1117&label=CI" alt="Status do pipeline de integracao continua do observability-governance-lab" /></a>
+<img src="https://img.shields.io/github/last-commit/JulianoVinceCampos/observability-governance-lab?style=flat-square&labelColor=0D1117&label=%C3%BAltimo%20commit" alt="Data do ultimo commit no observability-governance-lab" />
+<img src="https://img.shields.io/github/commit-activity/y/JulianoVinceCampos/observability-governance-lab?style=flat-square&labelColor=0D1117&label=commits%2Fano" alt="Commits por ano no repositorio observability-governance-lab" />
+
 <details>
 <summary><strong>Em construção</strong>, cada um ligado a uma competência específica</summary>
 
