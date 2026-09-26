@@ -37,6 +37,16 @@ Commit assinado, histórico linear
 
 ## Projetos em destaque
 
+### [llm-eval-gate](https://github.com/JulianoVinceCampos/llm-eval-gate)
+
+Gate de CI que reprova o pull request quando a qualidade da saída de um LLM regride. O candidato é medido contra um baseline determinístico de regras, em splits sintéticos com resposta conhecida, e o veredito sai em três estados: passa, reprova ou inconclusivo, quando a amostra não sustenta conclusão.
+
+A decisão usa não inferioridade com o score de Tango. Na calibração, a aprovação indevida de uma regressão do tamanho da margem ficou em 5,8%, contra 32,5% do bootstrap percentil. As regras acertam 100% no split do template e 47,3% no split difícil, que é o espaço que o modelo precisa provar que ocupa. 257 testes, zero dependência de runtime, e o PR roda em replay de cassette gravada, sem chamar modelo.
+
+<a href="https://github.com/JulianoVinceCampos/llm-eval-gate/actions"><img src="https://img.shields.io/github/actions/workflow/status/JulianoVinceCampos/llm-eval-gate/pr-ci.yml?style=flat-square&labelColor=0D1117&label=CI" alt="Status do pipeline de integracao continua do llm-eval-gate" /></a>
+<img src="https://img.shields.io/github/last-commit/JulianoVinceCampos/llm-eval-gate?style=flat-square&labelColor=0D1117&label=%C3%BAltimo%20commit" alt="Data do ultimo commit no llm-eval-gate" />
+<img src="https://img.shields.io/github/commit-activity/y/JulianoVinceCampos/llm-eval-gate?style=flat-square&labelColor=0D1117&label=commits%2Fano" alt="Commits por ano no repositorio llm-eval-gate" />
+
 ### [postmortem-miner](https://github.com/JulianoVinceCampos/postmortem-miner)
 
 Histórico de incidente virando decisão de triagem. Minera padrão recorrente em postmortem e devolve a árvore de decisão que um plantonista usa às 3h da manhã. Baseline determinístico primeiro, modelo depois, e só se a medição mostrar ganho.
@@ -84,9 +94,8 @@ Framework de governança virando controle executável. ITIL 4 e COBIT 2019 norma
 
 | Projeto | Domínio | O que resolve |
 |---|---|---|
-| `llm-eval-gate` | LLMOps e guardrail | Gate de CI que reprova o PR quando a qualidade da saída do LLM regride. Spec executável, variância entre execuções, orçamento de custo e latência, comparação contra baseline determinístico |
 | `ledger-forensics` | Criptografia aplicada e PKI | Detecção de fraude em escrituração com ground truth injetado, cadeia de hash tamper-evident, validação de XMLDSig e Autoridade Certificadora de teste própria |
-| `dora-lens` | Gestão de engenharia com dado | As quatro métricas DORA direto da API do GitHub, com cada definição e cada caso de borda escritos, para o número significar a mesma coisa em toda leitura |
+| `dora-lens` | Gestão de engenharia com dado | As cinco métricas DORA direto da API do GitHub, com cada definição e cada caso de borda escritos, para o número significar a mesma coisa em toda leitura |
 | `bulk-ingest-lab` | Performance em stack legada | Ingestão monolítica virando streaming com chunking transacional, medida em JMH e com gate de regressão de memória |
 
 </details>
