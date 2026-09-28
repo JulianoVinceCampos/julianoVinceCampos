@@ -2,7 +2,7 @@
 
 **Staff / Principal Architect** &nbsp;·&nbsp; **Engineering Manager** &nbsp;·&nbsp; **Cibersegurança** &nbsp;·&nbsp; **AI Engineering**
 
-Arquitetura, segurança e confiabilidade em fintech e banking sob regulação. 18 anos em tecnologia, 9 deles em cibersegurança. O que está aqui roda com um comando, em máquina limpa, sem chave de API e sem conta em nuvem.
+Arquitetura, segurança e confiabilidade em fintech e banking sob regulação. 20 anos em tecnologia, 9 deles em cibersegurança. O que está aqui roda com um comando, em máquina limpa, sem chave de API e sem conta em nuvem.
 
 <a href="https://julianovincedecampos.com/"><img src="https://img.shields.io/badge/Bio-julianovincedecampos.com-0D1117?style=for-the-badge" alt="Bio profissional de Juliano Vince de Campos" /></a>
 <a href="https://www.linkedin.com/in/julianovincecampos/"><img src="https://img.shields.io/badge/LinkedIn-julianovincecampos-0A66C2?style=for-the-badge" alt="LinkedIn de Juliano Vince de Campos, arquiteto de software e cibersegurança" /></a>
